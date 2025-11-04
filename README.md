@@ -8,7 +8,6 @@ This project implements **debiasing** techniques to reduce gender, profession, r
 
 **Course**: Natural Language Processing  
 **Academic Year**: 2024/2025  
-**Dataset**: StereoSet (Nadeem et al., 2021)
 
 ## Objectives
 
@@ -33,7 +32,7 @@ python main.py --only-visualize
 ## Project Structure
 
 ```
-roberta-debiasing/
+src/
 ├── main.py                 # Main script
 ├── evaluation.py           # StereoSet evaluation
 ├── training.py             # Model fine-tuning
