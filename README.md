@@ -32,16 +32,22 @@ python main.py --only-visualize
 ## Project Structure
 
 ```
-src/
-├── main.py                 # Main script
-├── evaluation.py           # StereoSet evaluation
-├── training.py             # Model fine-tuning
-├── visualization.py        # Plot generation
-├── requirements.txt        # Dependencies
-├── results/               # Experiment results (JSON)
-├── plots/                 # Generated plots (PNG)
-├── checkpoints/           # Training checkpoints
-└── debiased_model/        # Final debiased model
+NLP-Exam/
+├── README.md
+├── nlp_report_fabio_casalingo.pdf                # (o qualsiasi PDF: es. relazione_progetto.pdf)
+└── code/
+    ├── main.py
+    ├── requirements.txt
+    ├── src/
+    │   ├── data_loader.py
+    │   ├── model_manager.py
+    │   ├── training.py
+    │   ├── evaluation.py
+    │   └── visualization.py
+    ├── results/
+    └── results_dev_set/
+
+
 ```
 
 ## Requirements
