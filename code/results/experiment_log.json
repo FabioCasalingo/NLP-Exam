@@ -1,0 +1,77 @@
+{
+  "timestamp": "2025-10-31T08:44:16.882094",
+  "config": {
+    "stereoset_split": "test",
+    "batch_size": 8,
+    "train_batch_size": 4,
+    "epochs": 3,
+    "learning_rate": 2e-05,
+    "quick_test": false,
+    "visualization_enabled": true
+  },
+  "baseline": {
+    "ss": 51.06,
+    "lms": 68.83,
+    "icat": 67.37,
+    "counts": {
+      "total": 12766
+    }
+  },
+  "training": {
+    "training_time_minutes": 16.152979505062103,
+    "num_epochs": 3,
+    "learning_rate": 2e-05,
+    "batch_size": 4,
+    "mlm_probability": 0.15,
+    "train_samples": 5565,
+    "val_samples": 619,
+    "training_loss": 1.6076586018120191,
+    "total_time_minutes": 16.520309507846832
+  },
+  "debiased": {
+    "ss": 51.55,
+    "lms": 71.25,
+    "icat": 69.04,
+    "counts": {
+      "total": 12766
+    }
+  },
+  "comparison": {
+    "baseline": {
+      "ss": 51.06,
+      "lms": 68.83,
+      "icat": 67.37,
+      "counts": {
+        "total": 12766
+      }
+    },
+    "debiased": {
+      "ss": 51.55,
+      "lms": 71.25,
+      "icat": 69.04,
+      "counts": {
+        "total": 12766
+      }
+    },
+    "delta": {
+      "ss": 0.49,
+      "lms": 2.42,
+      "icat": 1.67
+    },
+    "improvement": {
+      "ss": {
+        "absolute": 0.49,
+        "relative": 0.96
+      },
+      "lms": {
+        "absolute": 2.42,
+        "relative": 3.52
+      },
+      "icat": {
+        "absolute": 1.67,
+        "relative": 2.48
+      }
+    }
+  },
+  "total_time_minutes": 575.848198946317
+}

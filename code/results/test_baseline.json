@@ -1,0 +1,38 @@
+{
+  "model_name": "roberta-base-test",
+  "overall": {
+    "lms": 54.0,
+    "ss": 46.3,
+    "icat": 50.0,
+    "num_examples": 100,
+    "lms_correct": 54,
+    "ss_stereotyped": 25
+  },
+  "by_domain": {
+    "profession": {
+      "lms": 47.06,
+      "ss": 31.25,
+      "icat": 29.41,
+      "num_examples": 34,
+      "lms_correct": 16,
+      "ss_stereotyped": 5
+    },
+    "race": {
+      "lms": 62.26,
+      "ss": 51.52,
+      "icat": 60.38,
+      "num_examples": 53,
+      "lms_correct": 33,
+      "ss_stereotyped": 17
+    },
+    "gender": {
+      "lms": 38.46,
+      "ss": 60.0,
+      "icat": 30.77,
+      "num_examples": 13,
+      "lms_correct": 5,
+      "ss_stereotyped": 3
+    }
+  },
+  "num_examples": 100
+}

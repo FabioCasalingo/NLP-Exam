@@ -1,0 +1,50 @@
+{
+  "model_name": "roberta-base-baseline",
+  "overall": {
+    "ss": 51.06,
+    "lms": 68.83,
+    "icat": 67.37,
+    "counts": {
+      "total": 12766
+    }
+  },
+  "by_domain": {
+    "profession": {
+      "ss": 50.42,
+      "lms": 68.25,
+      "icat": 67.68,
+      "counts": {
+        "total": 4833
+      },
+      "num_examples": 4833
+    },
+    "race": {
+      "ss": 51.42,
+      "lms": 69.27,
+      "icat": 67.3,
+      "counts": {
+        "total": 5923
+      },
+      "num_examples": 5923
+    },
+    "gender": {
+      "ss": 51.66,
+      "lms": 68.7,
+      "icat": 66.42,
+      "counts": {
+        "total": 1522
+      },
+      "num_examples": 1522
+    },
+    "religion": {
+      "ss": 51.31,
+      "lms": 69.63,
+      "icat": 67.8,
+      "counts": {
+        "total": 488
+      },
+      "num_examples": 488
+    }
+  },
+  "num_examples": 12766
+}

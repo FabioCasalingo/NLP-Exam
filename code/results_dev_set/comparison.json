@@ -1,0 +1,164 @@
+{
+  "overall": {
+    "baseline": {
+      "lms": 54.61,
+      "ss": 49.91,
+      "icat": 54.51,
+      "num_examples": 2106,
+      "lms_correct": 1150,
+      "ss_stereotyped": 574
+    },
+    "debiased": {
+      "lms": 78.35,
+      "ss": 53.94,
+      "icat": 72.17,
+      "num_examples": 2106,
+      "lms_correct": 1650,
+      "ss_stereotyped": 890
+    },
+    "improvement": {
+      "ss": {
+        "absolute": 4.03,
+        "relative": 8.07
+      },
+      "lms": {
+        "absolute": 23.74,
+        "relative": 43.47
+      },
+      "icat": {
+        "absolute": 17.66,
+        "relative": 32.4
+      }
+    }
+  },
+  "by_domain": {
+    "profession": {
+      "baseline": {
+        "lms": 51.6,
+        "ss": 49.28,
+        "icat": 50.86,
+        "num_examples": 810,
+        "lms_correct": 418,
+        "ss_stereotyped": 206
+      },
+      "debiased": {
+        "lms": 76.54,
+        "ss": 48.87,
+        "icat": 74.81,
+        "num_examples": 810,
+        "lms_correct": 620,
+        "ss_stereotyped": 303
+      },
+      "improvement": {
+        "ss": {
+          "absolute": -0.41,
+          "relative": -0.83
+        },
+        "lms": {
+          "absolute": 24.94,
+          "relative": 48.33
+        },
+        "icat": {
+          "absolute": 23.95,
+          "relative": 47.09
+        }
+      }
+    },
+    "race": {
+      "baseline": {
+        "lms": 58.84,
+        "ss": 50.88,
+        "icat": 57.8,
+        "num_examples": 962,
+        "lms_correct": 566,
+        "ss_stereotyped": 288
+      },
+      "debiased": {
+        "lms": 81.6,
+        "ss": 58.34,
+        "icat": 67.98,
+        "num_examples": 962,
+        "lms_correct": 785,
+        "ss_stereotyped": 458
+      },
+      "improvement": {
+        "ss": {
+          "absolute": 7.46,
+          "relative": 14.66
+        },
+        "lms": {
+          "absolute": 22.76,
+          "relative": 38.68
+        },
+        "icat": {
+          "absolute": 10.18,
+          "relative": 17.61
+        }
+      }
+    },
+    "gender": {
+      "baseline": {
+        "lms": 47.45,
+        "ss": 47.11,
+        "icat": 44.71,
+        "num_examples": 255,
+        "lms_correct": 121,
+        "ss_stereotyped": 57
+      },
+      "debiased": {
+        "lms": 71.76,
+        "ss": 50.82,
+        "icat": 70.59,
+        "num_examples": 255,
+        "lms_correct": 183,
+        "ss_stereotyped": 93
+      },
+      "improvement": {
+        "ss": {
+          "absolute": 3.71,
+          "relative": 7.88
+        },
+        "lms": {
+          "absolute": 24.31,
+          "relative": 51.23
+        },
+        "icat": {
+          "absolute": 25.88,
+          "relative": 57.88
+        }
+      }
+    },
+    "religion": {
+      "baseline": {
+        "lms": 56.96,
+        "ss": 51.11,
+        "icat": 55.7,
+        "num_examples": 79,
+        "lms_correct": 45,
+        "ss_stereotyped": 23
+      },
+      "debiased": {
+        "lms": 78.48,
+        "ss": 58.06,
+        "icat": 65.82,
+        "num_examples": 79,
+        "lms_correct": 62,
+        "ss_stereotyped": 36
+      },
+      "improvement": {
+        "ss": {
+          "absolute": 6.95,
+          "relative": 13.6
+        },
+        "lms": {
+          "absolute": 21.52,
+          "relative": 37.78
+        },
+        "icat": {
+          "absolute": 10.12,
+          "relative": 18.17
+        }
+      }
+    }
+  }
+}

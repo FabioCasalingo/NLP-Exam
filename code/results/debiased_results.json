@@ -1,0 +1,50 @@
+{
+  "model_name": "roberta-base-debiased",
+  "overall": {
+    "ss": 51.55,
+    "lms": 71.25,
+    "icat": 69.04,
+    "counts": {
+      "total": 12766
+    }
+  },
+  "by_domain": {
+    "profession": {
+      "ss": 50.85,
+      "lms": 70.42,
+      "icat": 69.22,
+      "counts": {
+        "total": 4833
+      },
+      "num_examples": 4833
+    },
+    "race": {
+      "ss": 52.12,
+      "lms": 71.94,
+      "icat": 68.89,
+      "counts": {
+        "total": 5923
+      },
+      "num_examples": 5923
+    },
+    "gender": {
+      "ss": 51.61,
+      "lms": 71.06,
+      "icat": 68.76,
+      "counts": {
+        "total": 1522
+      },
+      "num_examples": 1522
+    },
+    "religion": {
+      "ss": 51.31,
+      "lms": 71.67,
+      "icat": 69.8,
+      "counts": {
+        "total": 488
+      },
+      "num_examples": 488
+    }
+  },
+  "num_examples": 12766
+}
