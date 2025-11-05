@@ -34,7 +34,7 @@ python main.py --only-visualize
 ```
 NLP-Exam/
 ├── README.md
-├── nlp_report_fabio_casalingo.pdf                # (o qualsiasi PDF: es. relazione_progetto.pdf)
+├── nlp_report_fabio_casalingo.pdf                
 └── code/
     ├── main.py
     ├── requirements.txt
