@@ -35,7 +35,7 @@ python main.py --only-visualize
 NLP-Exam/
 ├── README.md
 ├── nlp_report_fabio_casalingo.pdf
-├── nlp_slides_fabio_casalingo.ppt             
+├── nlp_slides_fabio_casalingo.pptx            
 └── code/
     ├── main.py
     ├── requirements.txt
