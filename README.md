@@ -1,6 +1,6 @@
 # RoBERTa Stereotype Debiasing
 
-Project for the **Natural Language Processing** exam - Reducing stereotypical bias in language models.
+Project for the **Natural Language Processing** exam.
 
 ## Description
 
