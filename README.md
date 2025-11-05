@@ -6,9 +6,6 @@ Project for the **Natural Language Processing** exam.
 
 This project implements **debiasing** techniques to reduce gender, profession, race, and religion stereotypes in the **RoBERTa-base** model through fine-tuning with Masked Language Modeling on balanced datasets.
 
-**Course**: Natural Language Processing  
-**Academic Year**: 2024/2025  
-
 ## Objectives
 
 1. Evaluate stereotypical bias in the baseline RoBERTa model
